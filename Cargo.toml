@@ -1,0 +1,13 @@
+[package]
+name = "fix-japanese-zip"
+version = "0.1.0"
+authors = ["Nagy Tibor <xnagytibor@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+byteorder = "1.3"
+encoding = "0.2"
+
+[dependencies.clap]
+version = "2.33"
+default-features = false
